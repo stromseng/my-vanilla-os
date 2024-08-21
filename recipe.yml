@@ -41,6 +41,17 @@ stages:
           - modules/flatpaks.yml
           - modules/my-packages.yml
           - modules/vscode.yml
+          - modules/docker.yml
+
+      - name: install-homebrew
+        type: shell
+        commands:
+          - NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+      - name: install-starship-with-brew
+        type: shell
+        commands:
+          - brew install starship
 
       # Put your custom actions before this comment
 

@@ -6,8 +6,6 @@ source:
     - git
     - vim
     - wget
-    - docker
-    - docker-compose
     - gcc
 options:
   installSuggestions: true
