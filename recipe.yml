@@ -47,7 +47,7 @@ stages:
       - name: install-homebrew
         type: shell
         commands:
-          - NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+          - NONINTERACTIVE=1 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
       - name: install-starship-with-brew
         type: shell
