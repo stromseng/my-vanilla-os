@@ -2,7 +2,7 @@
   type: flatpak
   user:
     repo-url: "https://dl.flathub.org/repo/flathub.flatpakrepo"
-    repo-name:
+    repo-name: "flathub"
     install:
       - "io.github.dvlv.boxbuddyrs"
       - "com.discordapp.Discord"
