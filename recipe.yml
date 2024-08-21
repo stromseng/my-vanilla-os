@@ -42,7 +42,7 @@ stages:
           - modules/flatpaks.yml
           - modules/my-packages.yml
           - modules/vscode.yml
-          - modules/docker.yml
+          #- modules/docker.yml
 
       - name: install-homebrew
         type: shell
