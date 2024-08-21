@@ -6,11 +6,9 @@ source:
     - git
     - vim
     - wget
-    - firefox
     - docker
     - docker-compose
     - gcc
-    - go
     - distrobox
 options:
   installSuggestions: true
