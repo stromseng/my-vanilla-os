@@ -49,10 +49,10 @@ stages:
       #   commands:
       #     - NONINTERACTIVE=1 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-      - name: install-starship-with-brew
-        type: shell
-        commands:
-          - brew install starship
+      # - name: install-starship-with-brew
+      #   type: shell
+      #   commands:
+      #     - brew install starship
 
       # Put your custom actions before this comment
 
