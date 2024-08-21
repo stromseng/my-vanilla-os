@@ -44,10 +44,10 @@ stages:
           - modules/vscode.yml
           #- modules/docker.yml
 
-      - name: install-homebrew
-        type: shell
-        commands:
-          - NONINTERACTIVE=1 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      # - name: install-homebrew
+      #   type: shell
+      #   commands:
+      #     - NONINTERACTIVE=1 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
       - name: install-starship-with-brew
         type: shell
