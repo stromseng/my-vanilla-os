@@ -23,12 +23,6 @@ stages:
 
       # Put your custom actions behind this comment
 
-      - name: example-packages # Sample module using the built-in Apt module to install packages
-        type: apt
-        source:
-          packages:
-            - vim
-
       - name: example-commands # Sample module demonstrating the Shell module with custom commands
         type: shell
         commands:

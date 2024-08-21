@@ -9,7 +9,6 @@ source:
     - docker
     - docker-compose
     - gcc
-    - distrobox
 options:
   installSuggestions: true
   fixMissing: true
