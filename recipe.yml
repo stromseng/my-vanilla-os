@@ -1,3 +1,4 @@
+# vib
 name: my-vanilla-image # Replace this name with your image name
 id: my-vanilla-image # Replace this ID with your image ID
 stages:
