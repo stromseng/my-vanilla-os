@@ -44,7 +44,7 @@ stages:
       - name: my-custom-modules
         type: includes
         includes:
-          #- modules/flatpaks.yml
+          - modules/flatpaks.yml
           - modules/my-packages.yml
           - modules/vscode.yml
 
